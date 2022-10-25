@@ -1,0 +1,3 @@
+1)The base models should be independent.If they are similar,then the voting classifier wont work at its max peak.
+2)The minimum accuracy of all our models should be 51%.If it is less than 50%,then we will face a loss bcz,then the combination created(voting classifier created),will 
+ have accuracy less than the worst of all the three.
