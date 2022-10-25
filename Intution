@@ -1,0 +1,5 @@
+We have 3 ML models and we give a dataset to the 3 models.These 3 models can be same as well as different.These models are trained independently on the same model.So,after 
+it is trained,we bring a new query point say Xq,which we send to all the three models using the predict method.So,lets say model-1 is predicting class1,model-2 is predicting 
+class0 and three is class0.Since majority of the model are predicting the output to be 0,so the answer is 0.
+
+In regression,instead of classes it will be numbers,and the result will be the mean of those numbers.
